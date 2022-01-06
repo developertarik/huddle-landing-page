@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family:"Open Sans";
+    background-image: url(images/bg-desktop.svg);
+    background-color:hsl(257,40%,49%);
+}
+.logo-img{
+    margin-left:50px;
+    position: relative;
+    top:25px;
+}
+.header{
+    font-family: "Poppins";
+    color: white;
+    position: absolute;
+    right: 235px;
+    top:130px;
+}
+.description{
+    color:white;
+    position: absolute;
+    right:130px;
+    bottom:150px;
+}
+.description-text{
+    
+}
+p,h1{
+    display:inline;
+}
+.container{
+    position: relative;
+    left: 50px;
+}
+
+.mockup{
+    position: relative;
+    top:110px;
+}
+footer{
+    position:relative;
+    bottom:-20px;
+    left:100px;
+    color:white;
+}
+.register{
+    width:150px;
+    height:50px;
+    border-radius: 45px;
+    color : hsl(257,40%,49%);
+    border-color: white;
+    position: absolute;
+    right: 305px;
+    top: 85px;
+}
+.register:hover{
+    background: hsl(300,69%,71%);
+    color: white;
+    font-family: "Open Sans";
+}
